@@ -6,4 +6,4 @@ sudo docker stop $(sudo docker ps -a -q)<br>
 sudo docker rm $(sudo docker ps -a -q)<br>
 <br>
 Removing all images:<br>
-sudo docker rmi $(sudo docker images -aq)
+sudo docker rmi -f $(sudo docker images -aq)
