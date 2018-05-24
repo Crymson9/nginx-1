@@ -1,0 +1,2 @@
+sudo docker build -t newimage .
+sudo docker run -d -p 80:80 newcontainer
