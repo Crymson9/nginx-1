@@ -1,5 +1,5 @@
 # nginx
-Dockerfile with nginx!<br>
+Useful commands!<br>
 <br>
 Stopping and removing all containers:<br>
 sudo docker stop $(sudo docker ps -a -q)<br>
