@@ -1,0 +1,5 @@
+sudo adduser ubuntu docker
+uname -r
+sudo apt-get update -y
+sudo docker pull nginx
+sudo docker run --name docker -nginx -p 80:80 nginx
